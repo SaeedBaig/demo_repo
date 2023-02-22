@@ -1,3 +1,5 @@
+// This is a simple Wello World file for demo purposes.
+
 #include <stdio.h>
 
 int main(void)
