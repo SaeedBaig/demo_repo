@@ -4,6 +4,9 @@
 
 int main(void)
 {
-    printf("Hello world!\n");
+    char user_name[50];
+    printf("What is your name? ");
+    scanf("%s", user_name);
+    printf("Hello %s! Nice to meet you!\n", user_name);
     return 0;
 }
